@@ -7,7 +7,7 @@ app.use(cors());
 
 // Serve static files from the 'home' folder
 app.use(express.static(path.join(__dirname, 'home')));
-
+app.use(express.json());
 // Default route (optional)
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'home', 'index.html'));
@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
 
 app.post('/add', (req, res) => {
   console.log(req.body);
-  res.send("data recevied");
+  res.send(req.body);
 });
 
 // Start the server
