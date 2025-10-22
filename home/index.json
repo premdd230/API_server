@@ -1,0 +1,112 @@
+{
+  "id": 102394,
+  "name": "Premkumar",
+  "email": "premdd230@gmail.com",
+  "is_active": true,
+  "signup_date": "2023-11-02T14:22:10Z",
+  "preferences": {
+    "theme": "red",
+    "notifications": {
+      "email": true,
+      "sms": false,
+      "push": true
+    },
+    "language": "en-US"
+  },
+  "roles": ["user", "beta_tester"],
+  "last_login": "2025-10-19T09:11:47Z",
+  "location": {
+    "city": "nagapattinam",
+    "state": "tamilnadu",
+    "country": "India",
+    "coordinates": {
+      "lat": 47.6062,
+      "lng": -122.3321
+    }
+  },
+  "employees" : [
+
+  {
+
+    "id": 1,
+
+    "name": "Ava Thompson",
+
+    "position": "Software Engineer",
+
+    "department": "Engineering",
+
+    "email": "ava.thompson@example.com",
+
+    "hireDate": "2021-06-14"
+
+  },
+
+  {
+
+    "id": 2,
+
+    "name": "Liam Carter",
+
+    "position": "Product Manager",
+
+    "department": "Product",
+
+    "email": "liam.carter@example.com",
+
+    "hireDate": "2019-11-03"
+
+  },
+
+  {
+
+    "id": 3,
+
+    "name": "Sophia Martinez",
+
+    "position": "UX Designer",
+
+    "department": "Design",
+
+    "email": "sophia.martinez@example.com",
+
+    "hireDate": "2020-08-22"
+
+  },
+
+  {
+
+    "id": 4,
+
+    "name": "Noah Patel",
+
+    "position": "Data Analyst",
+
+    "department": "Data Science",
+
+    "email": "noah.patel@example.com",
+
+    "hireDate": "2022-01-10"
+
+  },
+
+  {
+
+    "id": 5,
+
+    "name": "Emma Johnson",
+
+    "position": "HR Specialist",
+
+    "department": "Human Resources",
+
+    "email": "emma.johnson@example.com",
+
+    "hireDate": "2018-04-18"
+
+  }
+
+]
+
+ 
+}
